@@ -3,13 +3,13 @@ import { getFirestore } from "firebase/firestore";
 
 // TODO: Replace with your actual Firebase config
 const firebaseConfig = {
-  apiKey: "AIzaSyCnRHn2Q9qIzAER8NK-bTI6xiMqtbME-XA",
-  authDomain: "vollyball-ad4ce.firebaseapp.com",
-  projectId: "vollyball-ad4ce",
-  storageBucket: "vollyball-ad4ce.firebasestorage.app",
-  messagingSenderId: "306423290389",
-  appId: "1:306423290389:web:9615712510919c5ebc8c1c",
-  measurementId: "G-04456F9K1M"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
+  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID
 };
 
 const app = initializeApp(firebaseConfig);
