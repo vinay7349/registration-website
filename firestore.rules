@@ -1,0 +1,20 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Registrations collection
+    match /registrations/{registration} {
+      allow read, create, update, delete: if true;
+    }
+    
+    // Support messages collection
+    match /messages/{message} {
+      allow create: if true;
+      allow read: if true; // Allow reading messages for admin view
+    }
+    
+    // Legacy teams collection (if still used)
+    match /teams/{team} {
+      allow read, write: if true;
+    }
+  }
+}
