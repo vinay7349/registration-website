@@ -39,7 +39,7 @@ const Hero = ({ onOpenRegistration }) => {
         <p className="fade-in-up delay-1">Compete in Volleyball & Throwball</p>
         <div className="hero-details fade-in-up delay-2">
           <div className="detail-item"><i className="fas fa-calendar-alt"></i> Oct 15 - 17, 2026</div>
-          <div className="detail-item"><i className="fas fa-map-marker-alt"></i> KIT Mangalore</div>
+          <div className="detail-item"><i className="fas fa-map-marker-alt"></i> Mangalore</div>
 
         </div>
         <div className="countdown-container fade-in-up delay-3">

@@ -11,7 +11,7 @@ const Contact = () => {
             <div className="glass-panel" style={{ padding: '2.5rem', textAlign: 'center', border: '1px solid var(--glass-border)' }}>
               <i className="fas fa-map-marker-alt" style={{ fontSize: '1.8rem', color: 'var(--primary)', marginBottom: '1rem' }}></i>
               <h4 style={{ marginBottom: '0.8rem', fontSize: '1.2rem' }}>Location</h4>
-              <span style={{ color: 'var(--text-muted)', fontSize: '1rem' }}>KIT Mangalore</span>
+              <span style={{ color: 'var(--text-muted)', fontSize: '1rem' }}>Mangalore</span>
             </div>
             <div className="glass-panel" style={{ padding: '2.5rem', textAlign: 'center', border: '1px solid var(--glass-border)' }}>
               <i className="fas fa-phone-alt" style={{ fontSize: '1.8rem', color: 'var(--primary)', marginBottom: '1rem' }}></i>
